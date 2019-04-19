@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetailsActivity"
+    android:background="#C3C1C1"
+    >
+
+    <ImageView
+        android:id="@+id/imgLarge"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:src="@drawable/noavatar"
+        />
+
+    <TextView
+        android:id="@+id/tvNameLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Product Name"
+        android:textAllCaps="true"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="#0D7CD6"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <TextView
+        android:id="@+id/tvPriceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="0.00"
+        android:textColor="#E84E1D"
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Detail"
+        android:textAlignment="center"
+        android:layout_margin="4dp"
+        />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif-black"
+        android:background="#2196F3"/>
+
+</LinearLayout>
+
