@@ -38,7 +38,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         int first = Integer.parseInt(etFirst.getText().toString());
-        int second = Integer.parseInt(etSecond.toString().toString());
+        int second = Integer.parseInt(etSecond.getText().toString());
         int result = first + second;
 
         Toast.makeText(getActivity(), "sum is: "+ result, Toast.LENGTH_SHORT).show();

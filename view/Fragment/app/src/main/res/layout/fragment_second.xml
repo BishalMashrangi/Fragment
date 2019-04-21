@@ -6,7 +6,6 @@
     android:orientation="vertical"
     tools:context=".SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
    <EditText
        android:id="@+id/etRadius"
        android:layout_width="match_parent"
